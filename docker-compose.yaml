@@ -4,7 +4,7 @@
 version: '2'
 services:
   servicebot:
-    image: servicebot/servicebot
+    image: oosmacher/chubbkitchen
     environment:
 #      CERTIFICATES: "./ssl/"
       POSTGRES_DB_PORT : "5432"
