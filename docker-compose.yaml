@@ -15,7 +15,7 @@ services:
       SMTP_HOST : 'smtp.gmail.com'
       SMTP_USER : 'oosmacher@gmail.com'
       SMTP_PASSWORD : 'AAaa22'
-      SMTP_PORT : '587'
+      SMTP_PORT : '465'
       PORT : "3000"
     volumes:
       - upload-data:/usr/src/app/uploads
